@@ -12,12 +12,30 @@ font-family: 'Roboto', sans-serif;
     filter: invert(1);/*turns image from white to black*/
 }
 
+/* GENERAL CLASSES */
+
 li{
     list-style-type: none;
 }
 
+p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
 section{
     background-color: rgb(245, 245, 245);
+}
+
+.title{
+    font-size:120px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1;
+}
+
+.text--green{
+    color: #2adf2a !important; 
 }
 
 /* 
@@ -37,6 +55,13 @@ LANDING PAGE
     width: 100%;
     max-width: 1000px;
 }
+
+.header__para{
+    font-size: 24px;
+    line-height: 2;
+    max-width: 450px;
+}
+
 
 /* 
 
