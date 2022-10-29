@@ -225,6 +225,21 @@ nav{
     font-size: 20px;
 }
 
+/*
+
+MODAL
+
+*/
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1100px;
+    height: 700px;
+}
+
 /* 
 
 PROJECTS
