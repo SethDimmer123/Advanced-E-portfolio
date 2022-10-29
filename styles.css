@@ -23,6 +23,10 @@ p{
     font-size: 16px;
 }
 
+a{
+    text-decoration: none;
+}
+
 section{
     background-color: rgb(245, 245, 245);
 }
@@ -62,6 +66,20 @@ LANDING PAGE
     max-width: 450px;
 }
 
+.social__list{
+    margin-top: 16px;
+}
+
+.social__link{
+    background-color:#2adf2a;
+    color: white;
+    padding:6px;
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    margin-right:12px;
+}
+
 
 /* 
 
@@ -88,7 +106,6 @@ nav{
 }
 
 .nav__link--anchor{
-    text-decoration: none;
     font-size: 16px;
     color: #242424;
     font-weight: 700;
