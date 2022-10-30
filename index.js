@@ -3,6 +3,9 @@
 // hXfeDCAUBiwaZ6K3T
 
 function contact(event) {
-    event.preventDefault();
-    console.log('it worked')
+    event.preventDefault(); //prevents refreshing of email page
+    emailjs
+      .sendForm(
+        'service_pker4n9'
+      )
 }
