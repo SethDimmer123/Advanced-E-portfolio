@@ -6,13 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seth Dimmer</title>
     <link rel="stylesheet" href="./styles.css" />
-    <script
-      src="https://kit.fontawesome.com/c8e4d183c2.js"
-      crossorigin="anonymous"
-    ></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="text/javascript">
    (function(){
       emailjs.init("hXfeDCAUBiwaZ6K3T");
@@ -126,7 +122,7 @@
             <h3 class="modal__sub-title modal__sub-title--contact">
                 I'm currently open to new oppurtunities.
             </h3>
-            <form id="contact__form" action="">
+            <form id="contact__form" onsubmit="contact()">
                 <div class="form__item">
                     <label class="form__item--label">Name</label>
                     <input class="input" name="user_name" type="text" required></input>
