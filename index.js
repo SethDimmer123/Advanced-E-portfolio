@@ -1,3 +1,18 @@
+let isModalOpen = false;
+let contrastToggle = false;
+
+function toggleContrast() {
+    contrastToggle = !contrastToggle;
+    if(contrastToggle) {
+        document.body.classList += " dark-theme"
+    }
+    else{
+        document.body.classList.remove("dark-theme")
+    }
+}
+
+
+
 // template_og3t8jr
 // service_pker4n9
 // hXfeDCAUBiwaZ6K3T
@@ -25,7 +40,6 @@ function contact(event) {
     }
 
 
-let isModalOpen = false;
 function toggleModal() {
     if(isModalOpen) {
         isModalOpen = false;
