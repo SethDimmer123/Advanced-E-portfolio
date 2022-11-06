@@ -8,9 +8,12 @@ font-family: 'Roboto', sans-serif;
 
 
 #personal-logo{
-    width: 50px;
-    height: 50px;
-    filter: invert(1);/*turns image from white to black*/
+    width: 100px;
+    height: 100px;
+    /* filter: invert(1); */
+    /*turns image from white to black*/
+    color:black;
+    background-color: grey;
 }
 
 /* GENERAL CLASSES */
@@ -38,7 +41,7 @@ button{
 }
 
 section{
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
     transition: all 300ms ease;
 }
 
@@ -605,6 +608,9 @@ footer{
 .footer__logo--img{
     width: 70px;
     /* height: 70px; */
+    /* filter: invert(1); */
+    color: transparent;
+
 }
 
 .footer__social--list{
