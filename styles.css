@@ -19,6 +19,11 @@ NAVIGATION
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
 }
 
 #personal-logo {
@@ -29,6 +34,16 @@ nav{
 
 .nav__link--list{
     display: flex;
+}
+
+.nav__link {
+    margin: 0 12px;
+}
+
+.nav__link--anchor{
+    text-decoration: none;
+    font-size: 16px;
+    color: #242424;
 }
 
 
