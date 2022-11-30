@@ -37,6 +37,7 @@ input, textarea {
     border-left:none;
     border-right:none;
     height: 40px;
+    transition: all 300ms ease;
 }
 
 
@@ -51,6 +52,14 @@ label{
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 6px;
+}
+
+input:hover, textarea:hover {
+    border-color: #dcdfe6;
+}
+
+input:focus, textarea:focus{
+    border-color: #1bc470;
 }
 
 .container{
