@@ -27,6 +27,32 @@ section{
     background-color: rgb(245,245,245);
 }
 
+input, textarea {
+    width: 100%;
+    background-color: #242424;
+    color: white;
+    outline: none;
+    border: 3px solid #c0c4cc;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    height: 40px;
+}
+
+
+textarea{
+    resize: vertical;
+    height: 100px;
+    margin-top: 8px;
+}
+
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
 .container{
     padding: 50px 0;
     width: 100%;
@@ -309,6 +335,10 @@ MODAL
 .modal__para{
     margin-bottom:12px;
     line-height: 1.75;
+}
+
+.form__item{
+    margin-bottom:20px;
 }
 
 /*
