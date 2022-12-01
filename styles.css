@@ -619,6 +619,24 @@ footer {
 
 SHAPES
 
+shapes on the first row
+height = 15vh
+
+shapes on the seconds row
+height = 50vh
+
+shapes on third row
+height = 80vh
+
+shapes on the first column
+width = 5vw
+
+shapes on second column
+width = 50vw
+
+shapes on third column
+width = 80vw
+
 
 */
 
@@ -627,31 +645,31 @@ SHAPES
 }
 
 .shape--0 {
-    top: 35vh;
+    top: 15vh;
     left: 5vw;
 }
 .shape--1{
-    top: 35vh;
+    top: 15vh;
     left: 50vw;
 }
 .shape--2 {
-    top: 35vh;
+    top: 15vh;
     left: 80vw;
 }
 .shape--3 {
-    top: 70vh;
+    top: 50vh;
     left: 5vw;
 }
 .shape--4 {
-    top: 70vh;
+    top: 50vh;
     left: 50vw;
 }
 .shape--5 {
-    top: 70vh;
+    top: 50vh;
     left: 80vw;
 }
 .shape--6 {
-    top: 95vh;
+    top: 80vh;
     left: 5vw;
 }
 .shape--7 {
@@ -659,7 +677,7 @@ SHAPES
     left: 50vw;
 }
 .shape--8 {
-    top: 95vh;
+    top: 80vh;
     left: 80vw;
 }
 
