@@ -2,6 +2,19 @@
 // service_sj0b8fa
 // hXfeDCAUBiwaZ6K3T
 
+let isModalOpen = false;
+let contrastToggle = false;
+
+function toggleContrast() {
+    contrastToggle = !contrastToggle;
+    if(contrastToggle) {
+        document.body.classList += " dark-theme"
+    }
+    else {
+        document.body.classList.remove("dark-theme")
+    }
+}
+
 function contact(event) {
     event.preventDefault();
     const loading = document.querySelector('.modal__overlay--loading')
@@ -25,7 +38,7 @@ function contact(event) {
             );
         }) 
 }
-let isModalOpen = false;
+
 function toggleModal() {
     if(isModalOpen) {
         isModalOpen = false;
